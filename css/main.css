@@ -238,7 +238,7 @@ body {
 
 .linebreak{
 	display: block;
-  	margin-top: -15px;
+  	/*margin-top: -15px;*/
 }
 @media only screen and (max-width: 1024px) {
   body {
@@ -258,19 +258,24 @@ body {
 
 	.topRight{
 		width: 50vw;
+
 		position: fixed;
-		top: 30%;
+		top: 15%;
 		left: auto;
 		right: 10%;
 	}
 
 	.bottomLeft{
+		width: 50vw;
+
 		position: fixed;
 		top: auto;
 		bottom: 10%;
 		left: 10%;
 	}
 	.bottomRight {
+		width: 50vw;
+
 		position: fixed;
 		top: auto;
 		bottom: 10%;
@@ -278,8 +283,14 @@ body {
 		right: 10%;
 		/*transform: translate(-70%, -70%);*/
 	}
-  .linebreak{
-  	display: block;
-  	margin-top: 10px;
-  }
+  	#page_9b{
+		clip-path: polygon(30% 50%, 50% 5%, 50% 95%);
+	}
+	#page_9c{
+		clip-path: polygon(50% 5%, 50% 95%, 70% 50%);
+	}
+	.linebreak{
+	  	display: block;
+	  	margin-top: 2vh;
+	  }
 }
